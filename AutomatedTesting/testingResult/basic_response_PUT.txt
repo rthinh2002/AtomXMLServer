@@ -1,0 +1,100 @@
+Testing 1: Basic Valid Test
+Sending PUT request
+
+HTTP/1.1 201 HTTP_CREATED
+Date: 
+Content-Length: 812
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+Sending PUT request
+
+HTTP/1.1 200 OK
+Date: 
+Content-Length: 812
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+Testing 2: Duplicated Atom Field Test
+Sending PUT request
+
+HTTP/1.1 500 INTERNAL SERVER ERROR
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+Testing 3: No Content In The File Test
+Sending PUT request
+
+HTTP/1.1 204 NO CONTENT
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+Testing 4: Atom Feed No ID Test
+Sending PUT request
+
+HTTP/1.1 500 INTERNAL SERVER ERROR
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+Testing 5: Atom Feed No Link Test
+Sending PUT request
+
+HTTP/1.1 500 INTERNAL SERVER ERROR
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+Testing 6: Atom Feed No Title Test
+Sending PUT request
+
+HTTP/1.1 500 INTERNAL SERVER ERROR
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+Testing 7: Invalid Request
+Sending PUT request
+
+HTTP/1.1 400 BAD REQUEST
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+
+HTTP/1.1 400 BAD REQUEST
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+
+HTTP/1.1 400 BAD REQUEST
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+
+HTTP/1.1 400 BAD REQUEST
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+
+HTTP/1.1 400 BAD REQUEST
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+PUT Response Testing DONE!

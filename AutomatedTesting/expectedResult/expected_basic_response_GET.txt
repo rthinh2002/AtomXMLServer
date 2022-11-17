@@ -1,0 +1,34 @@
+GET Request Testing
+
+Testing 1: Client Send Request before any PUT request
+Sending GET request...
+
+HTTP/1.1 404 NOT FOUND
+Date: 
+Content-Length: 0
+Content-Type: application/atom+xml
+Connection: keep-alive
+
+
+
+
+Testing 2: Client Send Request after a valid PUT request
+Sending GET request...
+title: My example feed
+subtitle: for demonstration purposes
+link: www.cs.adelaide.edu.au
+updated: 2015-08-07T18:30:02Z
+author: Santa Claus
+id: urn::uuid:60a76c80-d399-11d9-b93C-0003939e0af6
+title: first entry
+link: www.cs.adelaide.edu.au/users/third/ds/
+updated: 2015-08-07T18:30:02Z
+id: urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6a
+summary: here is some plain text. Because I'm not completely evil, you can assume that this will always be less than 1000 characters. And, as I've said before, it will always be plain text.
+title: second feed entry
+link: www.cs.adelaide.edu.au/users/third/ds/14ds2s1
+updated: 2015-08-07T18:29:02Z
+id: urn:uuid:1225c695-cfb8-4ebb-aaaa-80da344efa6b
+summary: here's another summary entry which a reader would normally use to work out if they wanted to read some more. It's quite handy.
+
+

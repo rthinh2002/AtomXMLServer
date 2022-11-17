@@ -1,0 +1,11 @@
+title:Gaming Club
+link:www.google.com/gaming
+id:urn:uuid:23454uu-95yu-4dd-ccc-8777asdfasdfs
+updated:2015-08-07T22:30:02Z
+summary:News about Game
+entry
+title:Game Champion
+link:www.google.com/gaming/champion
+id:urn:uuid:21233ff-sdfs33-awww888-asdf222
+updated:2015-08-07T21:29:02Z
+summary:A new game champion
