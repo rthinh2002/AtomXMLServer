@@ -1,5 +1,3 @@
-Xuan Thinh Le - a1807507
-Assignment 2 Report
 
 Database:
 This program used SQLite database to perform connection. Database file and sqlite driver will be included in the repository
